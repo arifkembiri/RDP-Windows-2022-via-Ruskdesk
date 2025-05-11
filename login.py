@@ -38,7 +38,7 @@ for x, y, duration in actions:
     if (x, y) in [(291, 250), (310, 338)]:
         # For "first fill" and "second fill" coordinates, type the desired text
         pag.keyDown('D')  # Press the "D" key
-        text_to_type = ArifKembir1"
+        text_to_type = "ArifKembir1"
         pag.typewrite(text_to_type)
 
 

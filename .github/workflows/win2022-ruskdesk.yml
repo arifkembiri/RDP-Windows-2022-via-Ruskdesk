@@ -14,7 +14,7 @@ jobs:
         run: |
           Invoke-WebRequest -Uri "https://github.com/arifkembiri/RDP-Windows-2022-via-Ruskdesk/raw/refs/heads/main/Downloads.bat" -OutFile "Downloads.bat"
           cmd /c Downloads.bat
-      - name: Log In To AnyDesk
+      - name: Log In To RuskDesk
         run: cmd /c show.bat
 
       - name: Time Counter
